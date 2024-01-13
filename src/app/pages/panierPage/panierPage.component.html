@@ -1,0 +1,57 @@
+<section class="w-[100vw] h-[100vh] bg-[url('./assets/panier.jpeg')] bg-cover  grid place-content-center">
+  <div class="mx-auto max-w-screen-xl py-8 sm:px-6 sm:py-12 lg:px-8 bg-white px-4">
+    <div class="mx-auto max-w-3xl px-4">
+      <header class="text-center">
+        <h1 class="text-xl font-bold text-gray-900 sm:text-3xl">Votre panier</h1>
+      </header>
+
+      <div class="mt-8">
+        <ul class="w-screen max-w-lg ">
+          <app-item-cart></app-item-cart>
+          <app-item-cart></app-item-cart>
+          <app-item-cart></app-item-cart>
+        </ul>
+
+        <div class="mt-8 flex justify-end border-t border-gray-100 pt-8">
+          <div class="w-screen max-w-lg px-4">
+            <div   class="space-y-0.5 text-sm text-gray-700">
+              <div class="flex justify-between">
+                <dt>Subtotal</dt>
+                <dd>$250</dd>
+              </div>
+
+              <div class="flex justify-between">
+                <dt>VAT</dt>
+                <dd>$25</dd>
+              </div>
+
+              <div class="flex justify-between">
+                <dt>Discount</dt>
+                <dd>-$20</dd>
+              </div>
+
+              <div class="flex justify-between !text-base font-medium">
+                <dt>Total</dt>
+                <dd>$200</dd>
+              </div>
+            </div>
+            <div class="flex justify-end gap-4 mt-8">
+              <a
+                href="#"
+                class="block rounded bg-gray-700 px-5 py-3 text-sm text-gray-100 transition hover:bg-gray-600"
+              >
+              Continuer vos achats
+              </a>
+              <a
+                href="#"
+                class="block rounded bg-gray-700 px-5 py-3 text-sm text-gray-100 transition hover:bg-gray-600"
+              >
+              Commander
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
